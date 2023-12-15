@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:hypnohand_app/core/global_variables/global_variables.dart';
-import 'package:hypnohand_app/feature/auth/onboarding/onboarding_screen.dart';
 import 'package:hypnohand_app/feature/auth/splash/splashscreen.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
